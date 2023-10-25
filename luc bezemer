@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mijn Grote Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welkom op Mijn Grote Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over Ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Homepagina</h2>
+            <p>Dit is de startpagina van onze website.</p>
+        </section>
+        
+        <section id="about">
+            <h2>Over Ons</h2>
+            <p>Leer meer over ons bedrijf.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contacteer ons</h2>
+            <p>Neem contact met ons op via het contactformulier.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 MijnGroteWebsite.com</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
